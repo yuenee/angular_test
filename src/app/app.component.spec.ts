@@ -29,11 +29,3 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.content span')?.textContent).toContain('angular-app app is running!');
   });
 });
-
-
-git init
-git add -A
-git commit -m "first commit"
-git branch -M master
-git remote add origin git@github.com:yuenee/angular_test.git
-git push -u origin master
